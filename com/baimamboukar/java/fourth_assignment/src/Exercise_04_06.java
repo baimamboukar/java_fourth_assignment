@@ -1,8 +1,17 @@
-/*
-	MPELE DAVID JOSUE 
-	email:mpele.jusue@ictuniversity.edu.cm
-	matricule: ICTU20201158
-*/
+package com.baimamboukar.java.fourth_assignment.src;
+
+/**
+ * COURSE: JAVA PROGRAMMING I | ICT UNIVERSITY | FALL 2021
+ * INSTRUCTOR: Eng. DANIEL MOUNE
+ * ..................................................................
+ * ⚝ NAME: BAIMAM BOUKAR JEAN JACQUES
+ * ⚝ MATRIC NO: ICTU20201685
+ * ⚝ EMAIL: baimamboukar@gmail.com
+ * ⚝ GITHUB: github.com/baimamboukar
+ * ⚝ LINKEDIN: linkedin.com/in/baimamboukar
+ * ..................................................................
+ */
+
 public class Exercise_04_06 {
 	public static void main(String[] args) {
 		final double RADIUS = 40;
@@ -26,16 +35,16 @@ public class Exercise_04_06 {
 
 		// Compute three angles
 		double angleA = Math.toDegrees(Math.acos((a * a - b * b - c * c)
-			/ (-2 * b * c)));
+				/ (-2 * b * c)));
 		double angleB = Math.toDegrees(Math.acos((b * b - a * a - c * c)
-			/ (-2 * a * c)));
+				/ (-2 * a * c)));
 		double angleC = Math.toDegrees(Math.acos((c * c - b * b - a * a)
-			/ (-2 * a * b)));
+				/ (-2 * a * b)));
 
 		// Display results
 		System.out.println("The three angles are " +
-			Math.round(angleA * 100) / 100.0 + " " +
-			Math.round(angleB * 100) / 100.0 + " " +
-			Math.round(angleC * 100) / 100.0);	
+				Math.round(angleA * 100) / 100.0 + " " +
+				Math.round(angleB * 100) / 100.0 + " " +
+				Math.round(angleC * 100) / 100.0);
 	}
 }

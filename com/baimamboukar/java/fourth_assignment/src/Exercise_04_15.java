@@ -1,8 +1,17 @@
-/*
-	MPELE DAVID JOSUE 
-	email:mpele.jusue@ictuniversity.edu.cm
-	matricule: ICTU20201158
-*/
+package com.baimamboukar.java.fourth_assignment.src;
+
+/**
+ * COURSE: JAVA PROGRAMMING I | ICT UNIVERSITY | FALL 2021
+ * INSTRUCTOR: Eng. DANIEL MOUNE
+ * ..................................................................
+ * ⚝ NAME: BAIMAM BOUKAR JEAN JACQUES
+ * ⚝ MATRIC NO: ICTU20201685
+ * ⚝ EMAIL: baimamboukar@gmail.com
+ * ⚝ GITHUB: github.com/baimamboukar
+ * ⚝ LINKEDIN: linkedin.com/in/baimamboukar
+ * ..................................................................
+ */
+
 import java.util.Scanner;
 
 public class Exercise_04_15 {
@@ -17,8 +26,7 @@ public class Exercise_04_15 {
 
 		// Display its corresponding number
 		int number = 0;
-		if (Character.isLetter(ch))
-		{
+		if (Character.isLetter(ch)) {
 			if (ch >= 'W')
 				number = 9;
 			else if (ch >= 'T')
@@ -36,8 +44,8 @@ public class Exercise_04_15 {
 			else if (ch >= 'A')
 				number = 2;
 			System.out.println("The corresponding number is " + number);
-		}
-		else
+		} else
 			System.out.println(ch + " is an invalid input");
+		input.close();
 	}
 }

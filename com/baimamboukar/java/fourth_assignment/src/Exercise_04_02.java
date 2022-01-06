@@ -1,15 +1,24 @@
-/*
-	MPELE DAVID JOSUE 
-	email:mpele.jusue@ictuniversity.edu.cm
-	matricule: ICTU20201158
-*/
+package com.baimamboukar.java.fourth_assignment.src;
+
+/**
+ * COURSE: JAVA PROGRAMMING I | ICT UNIVERSITY | FALL 2021
+ * INSTRUCTOR: Eng. DANIEL MOUNE
+ * ..................................................................
+ * ⚝ NAME: BAIMAM BOUKAR JEAN JACQUES
+ * ⚝ MATRIC NO: ICTU20201685
+ * ⚝ EMAIL: baimamboukar@gmail.com
+ * ⚝ GITHUB: github.com/baimamboukar
+ * ⚝ LINKEDIN: linkedin.com/in/baimamboukar
+ * ..................................................................
+ */
+
 import java.util.Scanner;
 
 public class Exercise_04_02 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		final double RADIUS = 6371.01;	// Constant value
+		final double RADIUS = 6371.01; // Constant value
 
 		// Prompt the user to enter the latitude and longitude
 		// of two points on the earth in degrees
@@ -33,11 +42,12 @@ public class Exercise_04_02 {
 		y2 = Math.toRadians(y2);
 
 		// Calculate its great circle distance
-		double distance = 
-			RADIUS * Math.acos(Math.sin(x1) * Math.sin(x2) + 
-			Math.cos(x1) * Math.cos(x2) * Math.cos(y1 - y2));
+		double distance = RADIUS * Math.acos(Math.sin(x1) * Math.sin(x2) +
+				Math.cos(x1) * Math.cos(x2) * Math.cos(y1 - y2));
 
 		// Display result
 		System.out.println("The distance between the two points is " + distance);
+		input.close();
 	}
+
 }

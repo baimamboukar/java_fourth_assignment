@@ -1,41 +1,45 @@
-/*
-	MPELE DAVID JOSUE 
-	email:mpele.jusue@ictuniversity.edu.cm
-	matricule: ICTU20201158
-*/
+package com.baimamboukar.java.fourth_assignment.src;
+
+/**
+ * COURSE: JAVA PROGRAMMING I | ICT UNIVERSITY | FALL 2021
+ * INSTRUCTOR: Eng. DANIEL MOUNE
+ * ..................................................................
+ * ⚝ NAME: BAIMAM BOUKAR JEAN JACQUES
+ * ⚝ MATRIC NO: ICTU20201685
+ * ⚝ EMAIL: baimamboukar@gmail.com
+ * ⚝ GITHUB: github.com/baimamboukar
+ * ⚝ LINKEDIN: linkedin.com/in/baimamboukar
+ * ..................................................................
+ */
+
 import java.util.Scanner;
 
 public class Exercise_04_10 {
 	public static void main(String[] args) {
-			String set1 =
-			" 1  2  3  4\n" +
-			" 8 12 15 14\n" +
-			"17 19 21 23\n" +
-			"25 27 29 31";
+		String set1 = " 1  2  3  4\n" +
+				" 8 12 15 14\n" +
+				"17 19 21 23\n" +
+				"25 27 29 31";
 
-		String set2 =
-			" 2  3  6  7\n" +
-			"10 11 14 15\n" +
-			"18 19 22 23\n" +
-			"26 27 30 31";
+		String set2 = " 2  3  6  7\n" +
+				"10 11 14 15\n" +
+				"18 19 22 23\n" +
+				"26 27 30 31";
 
-		String set3 =
-			" 4  5  6  7\n" +
-			"12 13 14 15\n" +
-			"20 21 22 23\n" +
-			"28 29 30 31";
+		String set3 = " 4  5  6  7\n" +
+				"12 13 14 15\n" +
+				"20 21 22 23\n" +
+				"28 29 30 31";
 
-		String set4 =
-			" 8  9 10 11\n" +
-			"12 13 14 15\n" +
-			"24 25 26 27\n" +
-			"28 29 30 31";
+		String set4 = " 8  9 10 11\n" +
+				"12 13 14 15\n" +
+				"24 25 26 27\n" +
+				"28 29 30 31";
 
-		String set5 = 
-			"16 17 18 19\n" +
-			"20 21 22 23\n" +
-			"24 25 26 27\n" +
-			"28 29 30 31";
+		String set5 = "16 17 18 19\n" +
+				"20 21 22 23\n" +
+				"24 25 26 27\n" +
+				"28 29 30 31";
 
 		int day = 0;
 
@@ -93,5 +97,6 @@ public class Exercise_04_10 {
 			day += 16;
 
 		System.out.println("\nYour birthday is " + day + "!");
+		input.close();
 	}
 }

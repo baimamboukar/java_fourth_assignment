@@ -1,8 +1,17 @@
-/*
-	MPELE DAVID JOSUE 
-	email:mpele.jusue@ictuniversity.edu.cm
-	matricule: ICTU20201158
-*/
+package com.baimamboukar.java.fourth_assignment.src;
+
+/**
+ * COURSE: JAVA PROGRAMMING I | ICT UNIVERSITY | FALL 2021
+ * INSTRUCTOR: Eng. DANIEL MOUNE
+ * ..................................................................
+ * ⚝ NAME: BAIMAM BOUKAR JEAN JACQUES
+ * ⚝ MATRIC NO: ICTU20201685
+ * ⚝ EMAIL: baimamboukar@gmail.com
+ * ⚝ GITHUB: github.com/baimamboukar
+ * ⚝ LINKEDIN: linkedin.com/in/baimamboukar
+ * ..................................................................
+ */
+
 import java.util.Scanner;
 
 public class Exercise_04_22 {
@@ -18,7 +27,8 @@ public class Exercise_04_22 {
 		// Display wheater the second string
 		// is a substring of the frist string
 		System.out.println(
-			string2 + ((string1.contains(string2)) ? " is " : " is not ") + 
-			"a substring of " + string1);
+				string2 + ((string1.contains(string2)) ? " is " : " is not ") +
+						"a substring of " + string1);
+		input.close();
 	}
 }

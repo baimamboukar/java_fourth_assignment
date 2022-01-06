@@ -1,8 +1,17 @@
-/*
-	MPELE DAVID JOSUE 
-	email:mpele.jusue@ictuniversity.edu.cm
-	matricule: ICTU20201158
-*/
+package com.baimamboukar.java.fourth_assignment.src;
+
+/**
+ * COURSE: JAVA PROGRAMMING I | ICT UNIVERSITY | FALL 2021
+ * INSTRUCTOR: Eng. DANIEL MOUNE
+ * ..................................................................
+ * ⚝ NAME: BAIMAM BOUKAR JEAN JACQUES
+ * ⚝ MATRIC NO: ICTU20201685
+ * ⚝ EMAIL: baimamboukar@gmail.com
+ * ⚝ GITHUB: github.com/baimamboukar
+ * ⚝ LINKEDIN: linkedin.com/in/baimamboukar
+ * ..................................................................
+ */
+
 import java.util.Scanner;
 
 public class Exercise_04_26 {
@@ -33,12 +42,12 @@ public class Exercise_04_26 {
 		cents %= 5;
 
 		// Display results
-		System.out.println("Your amount " + amount + " consists of\n " 
-			+ numberOfOneDollars + " dollars\n " 
-			+ numberOfQuarters + " quarters\n "
-			+ numberOfDimes + " dimes\n "
-			+ numberOfNickels + " nickels\n "
-			+ cents + " pennies\n "
-			);
+		System.out.println("Your amount " + amount + " consists of\n "
+				+ numberOfOneDollars + " dollars\n "
+				+ numberOfQuarters + " quarters\n "
+				+ numberOfDimes + " dimes\n "
+				+ numberOfNickels + " nickels\n "
+				+ cents + " pennies\n ");
+		input.close();
 	}
 }

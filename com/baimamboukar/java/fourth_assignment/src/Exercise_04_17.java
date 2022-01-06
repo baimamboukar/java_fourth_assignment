@@ -1,8 +1,17 @@
-/*
-	MPELE DAVID JOSUE 
-	email:mpele.jusue@ictuniversity.edu.cm
-	matricule: ICTU20201158
-*/
+package com.baimamboukar.java.fourth_assignment.src;
+
+/**
+ * COURSE: JAVA PROGRAMMING I | ICT UNIVERSITY | FALL 2021
+ * INSTRUCTOR: Eng. DANIEL MOUNE
+ * ..................................................................
+ * ⚝ NAME: BAIMAM BOUKAR JEAN JACQUES
+ * ⚝ MATRIC NO: ICTU20201685
+ * ⚝ EMAIL: baimamboukar@gmail.com
+ * ⚝ GITHUB: github.com/baimamboukar
+ * ⚝ LINKEDIN: linkedin.com/in/baimamboukar
+ * ..................................................................
+ */
+
 import java.util.Scanner;
 
 public class Exercise_04_17 {
@@ -17,21 +26,22 @@ public class Exercise_04_17 {
 		String month = input.next();
 
 		// Test for leap year
-		boolean leapYear = 
-			((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
+		boolean leapYear = ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
 
 		// Display the number of day in the month
 		System.out.print(month + " " + year + " has ");
-		
-		if ( month.equals("Jan") || month.equals("Mar") || 
-			  month.equals("May") || month.equals("Jul") ||
-			  month.equals("Aug") || month.equals("Oct") ||
-			  month.equals("Dec"))
+
+		if (month.equals("Jan") || month.equals("Mar") ||
+				month.equals("May") || month.equals("Jul") ||
+				month.equals("Aug") || month.equals("Oct") ||
+				month.equals("Dec"))
 			System.out.println(31 + " days");
-		else if (month.equals("Apr") || month.equals("Jun") || 
-			month.equals("Sep") || month.equals("Nov"))
+		else if (month.equals("Apr") || month.equals("Jun") ||
+				month.equals("Sep") || month.equals("Nov"))
 			System.out.println(30 + " days");
 		else
-			System.out.println(((leapYear) ? 29 : 28) + " days");	
+			System.out.println(((leapYear) ? 29 : 28) + " days");
+
+		input.close();
 	}
 }

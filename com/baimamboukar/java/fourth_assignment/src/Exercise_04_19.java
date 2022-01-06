@@ -1,15 +1,24 @@
-/*
-	MPELE DAVID JOSUE 
-	email:mpele.jusue@ictuniversity.edu.cm
-	matricule: ICTU20201158
-*/
+package com.baimamboukar.java.fourth_assignment.src;
+
+/**
+ * COURSE: JAVA PROGRAMMING I | ICT UNIVERSITY | FALL 2021
+ * INSTRUCTOR: Eng. DANIEL MOUNE
+ * ..................................................................
+ * ⚝ NAME: BAIMAM BOUKAR JEAN JACQUES
+ * ⚝ MATRIC NO: ICTU20201685
+ * ⚝ EMAIL: baimamboukar@gmail.com
+ * ⚝ GITHUB: github.com/baimamboukar
+ * ⚝ LINKEDIN: linkedin.com/in/baimamboukar
+ * ..................................................................
+ */
+
 import java.util.Scanner;
 
 public class Exercise_04_19 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// Prompt the user to enter the first 9 digits 
+		// Prompt the user to enter the first 9 digits
 		System.out.print("Enter the first 9 digits of a ISBN: ");
 		String isbn = input.nextLine();
 
@@ -25,11 +34,12 @@ public class Exercise_04_19 {
 		int d9 = Integer.parseInt(isbn.substring(8));
 
 		// Compute d10
-		int d10 = (d1 * 1 + d2 * 2 + d3 * 3 + d4 * 4 + d5 * 5 
-				 + d6 * 6 + d7 * 7 + d8 * 8 + d9 * 9) % 11;
+		int d10 = (d1 * 1 + d2 * 2 + d3 * 3 + d4 * 4 + d5 * 5
+				+ d6 * 6 + d7 * 7 + d8 * 8 + d9 * 9) % 11;
 
 		// Display the 10-digit ISBN
 		System.out.println(
-			"The ISBN-10 number is " + isbn + ((d10 == 10) ? "X" : d10));
+				"The ISBN-10 number is " + isbn + ((d10 == 10) ? "X" : d10));
+		input.close();
 	}
 }
